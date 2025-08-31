@@ -1,0 +1,126 @@
+@font-face {
+  font-family: myFont;
+  src: url('Myfont-Regular.ttf');
+}
+
+html, body {
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background-color: #F9F8F8;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.header-title {
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: black;
+}
+
+#languages-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.language-box {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  background-color: #F6F6F6;
+  display: flex;
+  margin-top: 20px;
+  box-shadow: 4px 2px 3px 0px #C9CDCF;
+}
+
+.language-box:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.language {
+  margin: auto;
+  font-size: 20px;
+}
+
+.language-link {
+  text-decoration: none;
+  color: black;
+}
+
+.page-title {
+  text-align: center;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  gap: 30px;
+}
+
+.card {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.text-container {
+  padding-top: 50px;
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+}
+
+.text-sound, .text, .text-meaning {
+  font-family: myFont;
+}
+
+.text-sound, .text-hangul, .text, .text-meaning{
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.text-meaning {
+  margin-top: 30px;
+}
+
+.text {
+  word-wrap: normal;
+}
+
+.reveal-btn {
+  background-color: #37353E;
+  color: whitesmoke;
+  margin-top: 5px;
+  padding: 7px 0px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+.reveal-btn:hover {
+  cursor: pointer;
+  opacity: 0.95;
+}
